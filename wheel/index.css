@@ -167,14 +167,14 @@ button:disabled {
 	/*background-color: #2b2b2b;*/
 	perspective: 700px;
 }
-.hero-background-overlay {
+/*.hero-background-overlay {
 	position: absolute;
 	background: rgb(8,6,29);
         background: linear-gradient(180deg, rgba(8,6,29,1) 0%, rgba(27,21,99,1) 100%);
 	/*height: 150%;*/
-	height: 100%;
+	/*height: 100%;
 	width: 100%;
-	top: 0;
+	top: 0;*/
 }
 @keyframes animatedBackground {
 	0% {
