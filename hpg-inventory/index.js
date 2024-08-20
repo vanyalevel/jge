@@ -35,11 +35,11 @@ const items = [
     },
     {
         img: 'images/057.png',
-        title: 'Крышка от мусорного бака',
+        title: 'Sleeping Dogs:Definitive Edition',
     },
     {
         img: 'images/058.png',
-        title: 'Ремонтный набор',
+        title: 'Heavy Rain',
         count: 2,
     },
     {
