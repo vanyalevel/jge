@@ -346,7 +346,7 @@ p5Instance.onSelectItem = function(data, selectedKey) {
         image.src = getImageURI(dataSets[currentDataSet].indexOf(data[selectedKey]));
     }
     else {
-        image.src = '../hpg-inventory/images/000.png';
+        image.src = '../hpg-inventory/images/051.png';
     }
 };
 
