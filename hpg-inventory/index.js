@@ -17,21 +17,21 @@ const items = [
     },
     {
         img: 'images/053.png',
-        title: 'Рулон туалетной бумаги',
+        title: 'Turok (2008)',
         count: 2,
     },
     {
         img: 'images/054.png',
-        title: 'Респиратор',
+        title: 'Dying Light',
         count: 10,
     },
     {
         img: 'images/055.png',
-        title: 'Одноразовые перчатки'
+        title: 'Prince of Persia: Warrior Within'
     },
     {
         img: 'images/056.png',
-        title: 'Банка шпината'
+        title: 'Dungeon Keeper 2'
     },
     {
         img: 'images/057.png',
