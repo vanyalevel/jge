@@ -13,7 +13,7 @@ const items = [
     },
     {
         img: 'images/052.png',
-        title: 'Star Wars: The Force Unleashed II'
+        title: 'Star Wars: The Force Unleashed II',
     },
     {
         img: 'images/053.png',
@@ -27,11 +27,11 @@ const items = [
     },
     {
         img: 'images/055.png',
-        title: 'Prince of Persia: Warrior Within'
+        title: 'Prince of Persia: Warrior Within',
     },
     {
         img: 'images/056.png',
-        title: 'Dungeon Keeper 2'
+        title: 'Dungeon Keeper 2',
     },
     {
         img: 'images/057.png',
