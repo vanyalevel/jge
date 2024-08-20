@@ -4,7 +4,8 @@
 @import url(range.css);
 
 html, body {
-        background: #08061D
+        background-image: url("hpg2.jpg");
+        background-color: "#08061D"; 
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
