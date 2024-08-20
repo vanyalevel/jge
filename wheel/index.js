@@ -239,7 +239,7 @@ class Presets {
 const presets = new Presets;
 
 function getImageURI(index) {
-    let result = '../hpg-inventory/images/000.png',
+    let result = '../hpg-inventory/images/051.png',
         offset = 0
     ;
     switch (currentDataSet) {
