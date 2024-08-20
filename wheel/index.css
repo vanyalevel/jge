@@ -167,6 +167,7 @@ button:disabled {
 	perspective: 700px;
 }
 .hero-background-overlay {
+background: linear-gradient(to bottom, rgba(49,52,61,0) 0%, rgba(27, 21, 99, 0.70) 50%, #19153a 100%);
 	position: absolute;
 	/*height: 150%;*/
 	height: 100%;
