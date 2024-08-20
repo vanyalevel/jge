@@ -16,6 +16,7 @@ html, body {
 	justify-content: center;
 	font-family: Calibri, serif;
 	color: #eee;
+	background: #08061D url('images/hpg2.jpg') no-repeat top center;
 }
 a {
 	color: #9fd9ff;
