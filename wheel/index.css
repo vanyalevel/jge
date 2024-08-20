@@ -34,7 +34,6 @@ a:hover {
 #canvas {
 	position: relative;
 	font-size: 0;
-	padding-bottom: 100px;
 }
 #video {
 	position: absolute;
