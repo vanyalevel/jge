@@ -239,7 +239,7 @@ class Presets {
 const presets = new Presets;
 
 function getImageURI(index) {
-    let result = '../hpg-inventory/images/051.png',
+    let result = '../hpg-inventory/images/000.png',
         offset = 0
     ;
     switch (currentDataSet) {
@@ -346,7 +346,7 @@ p5Instance.onSelectItem = function(data, selectedKey) {
         image.src = getImageURI(dataSets[currentDataSet].indexOf(data[selectedKey]));
     }
     else {
-        image.src = '../hpg-inventory/images/051.png';
+        image.src = '../hpg-inventory/images/000.png';
     }
 };
 
