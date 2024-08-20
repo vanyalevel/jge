@@ -4,6 +4,7 @@
 @import url(range.css);
 
 html, body {
+	background: #08061D url('images/hpg2.jpg') no-repeat top center;
 	margin: 0;
 	padding: 0;
 	background: #08061D;
@@ -16,7 +17,6 @@ html, body {
 	justify-content: center;
 	font-family: Calibri, serif;
 	color: #eee;
-	background: #08061D url('images/hpg2.jpg') no-repeat top center;
 }
 a {
 	color: #9fd9ff;
