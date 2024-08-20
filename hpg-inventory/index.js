@@ -8,12 +8,12 @@ const items = [
     },
     {
         img: 'images/051.png',
-        title: 'Щit',
+        title: 'LEGO The Lord of the Rings',
         count: 2,
     },
     {
         img: 'images/052.png',
-        title: 'Комбинезон химзащиты'
+        title: 'Star Wars: The Force Unleashed II'
     },
     {
         img: 'images/053.png',
