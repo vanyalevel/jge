@@ -193,25 +193,67 @@ button:disabled {
 }
 .animation-paused {
 	animation-play-state: paused;
-}
+/* Контейнер для радио-кнопок */
 #wheel-data-sets {
-	position: absolute;
-	bottom: -150px;
-	color: #ccc;
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	justify-content: space-between;
-	user-select: none;
-	/*opacity: 0.6;*/
-	/*transition: opacity 0.3s;*/
+    position: absolute;
+    bottom: -150px;
+    color: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center; /* Центровка всех элементов */
+    gap: 10px; /* Промежуток между радио-кнопками */
+    user-select: none;
 }
-#wheel-data-sets:hover {
-	/*opacity: 1;*/
+
+/* Стили для каждого радио-кнопки */
+#wheel-data-sets input[type="radio"] {
+    display: none; /* Скрыть стандартные радио-кнопки */
 }
-#wheel-data-sets .break {
-	flex-basis: 100%;
-	height: 14px;
+
+/* Стили для меток радио-кнопок */
+#wheel-data-sets label {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #272167;
+    border: 2px solid #332a7e;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Изменение фона и увеличение размера при наведении */
+#wheel-data-sets label:hover {
+    background-color: #3a2b8e;
+    transform: scale(1.05);
+}
+
+/* Стили для активных радио-кнопок */
+#wheel-data-sets input[type="radio"]:checked + label {
+    background-color: #3a2b8e;
+    border-color: #007bff;
+}
+
+/* Стили для текста внутри метки */
+#wheel-data-sets label span {
+    margin-left: 8px; /* Отступ от иконки до текста */
+    color: #eee;
+}
+
+/* Анимация при изменении состояния радио-кнопки */
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Применение анимации при выборе радио-кнопки */
+#wheel-data-sets input[type="radio"]:checked + label {
+    animation: bounce 0.3s ease-in-out;
 }
 .dialog {
 	position: absolute;
