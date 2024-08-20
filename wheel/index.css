@@ -158,6 +158,7 @@ button:disabled {
 	height: 100%;
 }
 .hero-background {
+	background: url(JGE.png) no-repeat center;
 	position: relative;
 	overflow: hidden;
 	width: 100%;
@@ -165,34 +166,6 @@ button:disabled {
 	height: 100%;
 	/*background-color: #2b2b2b;*/
 	perspective: 700px;
-}
-.hero-background-overlay {
-	position: absolute;
-	background: linear-gradient(to bottom, rgba(49,52,61,0) 0%, rgba(25, 21, 58, 0.70) 50%, #19153a 100%);
-	/*height: 150%;*/
-	height: 100%;
-	width: 100%;
-	top: 0;
-}
-@keyframes animatedBackground {
-	0% {
-		opacity: 0;
-		transform: scale(1.25) rotateX(20deg) translateX(-10px) translateY(0)
-	}
-	5% {
-		opacity: 0.5;
-	}
-
-	97% {
-		opacity: 0.5;
-	}
-	100% {
-		opacity: 0;
-		transform: scale(1.25) rotateX(25deg) translateX(-10px) translateY(-50%)
-	}
-}
-.animation-paused {
-	animation-play-state: paused;
 }
 #wheel-data-sets {
 	position: absolute;
