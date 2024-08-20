@@ -120,6 +120,7 @@ button:disabled {
 	cursor: not-allowed;
 }
 .hero-background {
+	background: url(JGE.png) no-repeat center;
 	position: relative;
 	overflow: hidden;
 	width: 100%;
