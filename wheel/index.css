@@ -53,8 +53,9 @@ a:hover {
 	/*box-shadow: 0 0 30px #19153a;*/
 }
 #volume-control {
-	/*position: absolute;*/
-	/*bottom: -20px;*/
+	position: absolute;
+	bottom: 10px;
+	left: 680px;
 }
 
 button, input, optgroup, select, textarea {
