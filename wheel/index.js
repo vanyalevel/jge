@@ -298,11 +298,6 @@ function getImageURI(index) {
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
-        case "inventory2":
-        offset = 50; // Начинаем с 60-го элемента
-        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
-        break;
-            
         case "effects":
             result = '../hpg-inventory/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
             break;
@@ -330,7 +325,12 @@ function getImageURI(index) {
             ];
             result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
-
+            
+        case "inventory2":
+        offset = 59; // Начинаем с 60-го элемента
+        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+            
         case "coin":
             result = '../images/coin-obverse-20.png';
             if (index === 1) {
