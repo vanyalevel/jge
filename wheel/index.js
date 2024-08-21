@@ -4,7 +4,7 @@
 
 const dataSets = {
     inventory: [
-     'LEGO The Lord of the Rings',
+        'LEGO The Lord of the Rings',
         'Star Wars: The Force Unleashed II',
         'Turok (2008)',
         'Heavy Rain',
@@ -16,18 +16,18 @@ const dataSets = {
     ],
 
     inventory2: [        
-'LIMBO',
-"Mirror's Edge",
-'Outlast',
-'Grand Theft Auto: Vice City',
-'Plants vs. Zombies',
-'Goat Simulator',
-'Stray',
-'Detroit: Become Human',
-'Blitzkrieg 2 Anthology',
-'LEGO Star Wars: The Skywalker Saga',
-'Watch Dogs',
-"Teenage Mutant Ninja Turtles: Shredder's Revenge",
+       'LIMBO',
+       "Mirror's Edge",
+       'Outlast',
+       'Grand Theft Auto: Vice City',
+       'Plants vs. Zombies',
+       'Goat Simulator',
+       'Stray',
+       'Detroit: Become Human',
+       'Blitzkrieg 2 Anthology',
+       'LEGO Star Wars: The Skywalker Saga',
+       'Watch Dogs',
+       "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     ],
 
     effects: [
