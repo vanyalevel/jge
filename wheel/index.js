@@ -299,7 +299,7 @@ function getImageURI(index) {
         break;
             
         case "inventory2":
-        offset = 59; // Начинаем с 60-го элемента
+        offset = 50; // Начинаем с 60-го элемента
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
