@@ -15,6 +15,21 @@ const dataSets = {
         'Dungeon Keeper 2',
     ],
 
+    inventory2: [        
+'LIMBO',
+"Mirror's Edge",
+'Outlast',
+'Grand Theft Auto: Vice City',
+'Plants vs. Zombies',
+'Goat Simulator',
+'Stray',
+'Detroit: Become Human',
+'Blitzkrieg 2 Anthology',
+'LEGO Star Wars: The Skywalker Saga',
+'Watch Dogs',
+"Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    ],
+
     effects: [
         'Мистер Ржавчик',
         'Облизанный ободок унитаза',
@@ -280,6 +295,8 @@ function getImageURI(index) {
     switch (currentDataSet) {
         case "inventory":
             offset = 50;
+        case "inventory2":
+            offset = 59;
         case "effects":
             result = '../hpg-inventory/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
             break;
