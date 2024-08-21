@@ -13,6 +13,7 @@ const dataSets = {
         'Dying Light',
         'Sleeping Dogs: Definitive Edition',
         'Dungeon Keeper 2',
+        'Илья Муромец и Соловей-Разбойник',
     ],
 
     wheel2: [        
@@ -298,7 +299,7 @@ function getImageURI(index) {
             break;
             
         case "wheel2":
-        offset = 59; // Начинаем с 60-го элемента
+        offset = 60;
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
