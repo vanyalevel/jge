@@ -294,10 +294,14 @@ function getImageURI(index) {
     ;
     switch (currentDataSet) {
         case "inventory":
-            offset = 50;
+        offset = 50;
+        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
             
-            case "inventory2":
-            offset = 59;
+        case "inventory2":
+        offset = 59; // Начинаем с 60-го элемента
+        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
             
         case "effects":
             result = '../hpg-inventory/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
