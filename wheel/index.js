@@ -326,7 +326,7 @@ const p5Instance = new p5(wheelSketch);
 p5Instance.onAfterSetup = function () {
     p5Instance.setVideos([
         ['videos/oxseniron.mp4'],
-        ['videos/учит крутить рулём под phonk.mp4', 5],
+      /*  ['videos/учит крутить рулём под phonk.mp4', 5],
         ['videos/Папич-марш  прощание славянки .9мая.mp4', 7],
         ['videos/Putin walking meme (Full version).mp4', 32],
         // ['videos/BASSBOOSTED   Смешарики-От винта.mp4', 22],
@@ -367,7 +367,7 @@ p5Instance.onAfterSetup = function () {
         'videos/18.mp4',
         'videos/19.mp4',
         'videos/20.mp4',
-        'videos/21.mp4',
+        'videos/21.mp4',*/
     ]);
 };
 
