@@ -3,7 +3,7 @@
  */
 
 const dataSets = {
-    wheel1: [
+    inventory: [
         'LEGO The Lord of the Rings',
         'Star Wars: The Force Unleashed II',
         'Turok (2008)',
@@ -30,7 +30,7 @@ wheel2: [
     "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     ],
 
-    challenges: [
+    effects: [
         'Мистер Ржавчик',
         'Облизанный ободок унитаза',
         'Ловушка Джокера',
