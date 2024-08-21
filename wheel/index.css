@@ -196,10 +196,12 @@ button:disabled {
 }
 #wheel-data-sets {
 	position: absolute;
-	bottom: -150px;
+	bottom: -180px;
 	color: #ccc;
 	display: flex;
 	flex-wrap: wrap;
+	column-gap: 50px;
+	row-gap: 20px;
 	width: 100%;
 	justify-content: space-between;
 	user-select: none;
