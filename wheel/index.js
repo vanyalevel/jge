@@ -325,6 +325,7 @@ const p5Instance = new p5(wheelSketch);
 
 p5Instance.onAfterSetup = function () {
     p5Instance.setVideos([
+        ['/videos/oxseniron.mp4'],
         ['videos/учит крутить рулём под phonk.mp4', 5],
         ['videos/Папич-марш  прощание славянки .9мая.mp4', 7],
         ['videos/Putin walking meme (Full version).mp4', 32],
