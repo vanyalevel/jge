@@ -295,8 +295,12 @@ function getImageURI(index) {
     switch (currentDataSet) {
         case "inventory":
             offset = 50;
+            break;
+            
         case "inventory2":
             offset = 59;
+            break;
+            
         case "effects":
             result = '../hpg-inventory/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
             break;
