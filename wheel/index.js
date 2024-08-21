@@ -242,36 +242,13 @@ function getImageURI(index) {
     let result = '../hpg-inventory/images/000.png',
         offset = 0
     ;
-    switch (currentDataSet) {
-        case "inventory":
-            offset = 50;
-        case "effects":
-            result = '../hpg-inventory/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
-            break;
-
-        case "debuffs":
-            const mapping = [
-                1,
-                2,
-                7,
-                10,
-                12,
-                13,
-                16,
-                18,
-                20,
-                21,
-                22,
-                23,
-                26,
-                25,
-                31,
-                44,
-                48,
-                49
-            ];
-            result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
-            break;
+  switch (currentDataSet) {
+    case "inventory":
+        offset = 50;
+    case "effects":
+        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+}
 
         case "coin":
             result = '../images/coin-obverse-20.png';
