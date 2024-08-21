@@ -22,29 +22,29 @@ const items = [
     },
     {
         img: 'images/054.png',
-        title: 'Dying Light',
+        title: 'Heavy Rain',
         count: 10,
     },
     {
         img: 'images/055.png',
-        title: 'Prince of Persia: Warrior Within',
+        title: 'Fahrenheit: Indigo Prophecy Remastered',
     },
     {
         img: 'images/056.png',
-        title: 'Dungeon Keeper 2',
+        title: 'Prince of Persia: Warrior Within',
     },
     {
         img: 'images/057.png',
-        title: 'Sleeping Dogs:Definitive Edition',
+        title: 'Dying Light',
     },
     {
         img: 'images/058.png',
-        title: 'Heavy Rain',
+        title: 'Sleeping Dogs: Definitive Edition',
         count: 2,
     },
     {
         img: 'images/059.png',
-        title: 'Антисептик'
+        title: 'Dungeon Keeper 2'
     },
     {
         img: 'images/060.png',
