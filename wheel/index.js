@@ -3,7 +3,7 @@
  */
 
 const dataSets = {
-    inventory: [
+    wheel1: [
         'LEGO The Lord of the Rings',
         'Star Wars: The Force Unleashed II',
         'Turok (2008)',
@@ -13,24 +13,24 @@ const dataSets = {
         'Dying Light',
         'Sleeping Dogs: Definitive Edition',
         'Dungeon Keeper 2',
-        'Рука для фистинга имени Билли Херрингтона',
-        'Сексуальные чулки',
-        'Четырехлистный клевер',
-        'Кукла вуду',
-        'Набор выживальщика',
-        'Наперсток удачи',
-        'Переносной телепорт',
-        'Футляр',
-        'Жилетка Вассермана',
-        'Стул мамы Мерфи',
-        'Шиш кебаб',
-        'Альпинистский трос',
-        'Хакерский компьютер',
-        'Корона короля петучей',
-        'Благословение Хакса',
-        'Порошок прозрения',
     ],
-    effects: [
+
+wheel2: [
+        'LIMBO',
+        "Mirror's Edge",
+        'Outlast',
+        'Grand Theft Auto: Vice City',
+        'Plants vs. Zombies',
+        'Goat Simulator',
+        'Stray',
+        'Detroit: Become Human',
+        'Blitzkrieg 2 Anthology',
+    'LEGO Star Wars: The Skywalker Saga',
+    'Watch Dogs',
+    "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    ],
+
+    challenges: [
         'Мистер Ржавчик',
         'Облизанный ободок унитаза',
         'Ловушка Джокера',
