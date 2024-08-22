@@ -332,6 +332,7 @@ p5Instance.onAfterSetup = function () {
         ['videos/04.mp4'],
         ['videos/10.mp4'],
         ['videos/14686000376951.webm'],
+        ['AndrewBoxer.mp4'],
     ]);
 };
 
