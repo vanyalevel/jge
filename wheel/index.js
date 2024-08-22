@@ -271,7 +271,6 @@ function getImageURI(index) {
         break;
             
         case "effects":
-            offset = 9;
             result = '../hpg-inventory/images/0' + ('0' + (index+1 + offset)).slice(-2) + '.png';
             break;
             
