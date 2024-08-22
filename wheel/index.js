@@ -328,11 +328,11 @@ p5Instance.onAfterSetup = function () {
     p5Instance.setVideos([
         ['videos/oxseniron.mp4'],
         ['videos/ganzydance.mp4'],
-        ['videos/учит крутить рулём под phonk.mp4', 5],
         ['videos/JOJO\'S BIZARRE MAKEUP TUTORIAL.mp4', 6],
         ['videos/[SFM] Shrekophone.mp4', 15],
-        ['videos/Мэддисон - Shooting Stars.mp4', 13],
-        ['videos/Noisestorm - Crab Rave (Official Music Video).mp4', p5Instance.random([75, 137])],
+        ['videos/04.mp4'],
+        ['videos/10.mp4'],
+        ['videos/14686000376951.webm'],
     ]);
 };
 
