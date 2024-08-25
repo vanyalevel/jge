@@ -31,7 +31,7 @@ const dataSets = {
        "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     ],
 
-    wheel3: [
+    wheel9: [
     'Shrek 2',
     'Dishonored',
     'Sonic Adventure DX',
