@@ -317,6 +317,11 @@ function getImageURI(index) {
         offset = 60;
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
+
+        case "wheel9":
+        offset = 75;
+        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
             
         case "coin":
             result = '../images/coin-obverse-20.png';
