@@ -344,13 +344,13 @@ function getImageURI(index) {
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
-        case "wheel9":
-        offset = 75;
+        case "wheel4":
+        offset = 87;
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
-        case "wheel4":
-        offset = 87;
+        case "wheel9":
+        offset = 75;
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
