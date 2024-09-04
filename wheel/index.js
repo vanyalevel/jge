@@ -59,7 +59,7 @@ wheel4: [
 'Super Meat Boy',
     ],
 
-    wheel5: [
+wheel5: [
 'Sonic Heroes',
 'Neighbours back From Hell',
 'Slime Rancher',
@@ -354,7 +354,7 @@ function getImageURI(index) {
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
-        case "wheel4":
+        case "wheel5":
         offset = 97;
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
