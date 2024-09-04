@@ -354,11 +354,10 @@ function getImageURI(index) {
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
-    case "wheel5":
-    offset = 97;
-    let number = (index + 1 + offset).toString();
-    result = '../hpg-inventory/images/' + number.padStart(4, '0') + '.png';
-    break;
+        case "wheel5":
+        offset = 00;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
             
         case "coin":
             result = '../images/coin-obverse-20.png';
