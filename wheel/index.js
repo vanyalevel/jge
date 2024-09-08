@@ -12,7 +12,7 @@ const dataSets = {
         'Prince of Persia: Warrior Within',
         'Dying Light',
         'Sleeping Dogs: Definitive Edition',
-        'Dungeon Keeper 2',
+        'Kung Fu Panda',
         'Илья Муромец и Соловей-Разбойник',
     ],
 
