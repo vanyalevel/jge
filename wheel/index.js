@@ -394,6 +394,8 @@ p5Instance.onAfterSetup = function () {
         ['videos/pashakdt2.mp4'],
         ['videos/Pashabassboost.mp4'],
         ['videos/agrch diss.mp4'],
+        ['videos/sobiraem.mp4'],
+        
     ]);
 };
 
