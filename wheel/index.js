@@ -85,7 +85,7 @@ wheel3: [
 "Assassin's Creed II",
 'Portal 2',
 'Shank 2',
-
+],
 
     effects: [
         'Халява',
