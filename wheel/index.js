@@ -358,7 +358,12 @@ function getImageURI(index) {
         offset = 60;
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
-
+            
+        case "wheel3":
+        offset = 10;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+            
         case "wheel4":
         offset = 87;
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
@@ -374,10 +379,6 @@ function getImageURI(index) {
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
-        case "wheel3":
-        offset = 012;
-        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
-        break;
             
         case "coin":
             result = '../images/coin-obverse-20.png';
