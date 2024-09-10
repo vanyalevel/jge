@@ -391,6 +391,8 @@ p5Instance.onAfterSetup = function () {
         ['videos/AndrewBoxer.mp4'],
         ['videos/agruchedet.mp4'],
         ['videos/clockwork.mp4'],
+        ['videos/pashakdt2.mp4'],
+        ['videos/Pashabassboost.mp4'],
     ]);
 };
 
