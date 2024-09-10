@@ -72,6 +72,21 @@ wheel5: [
 'Jurassic World Evolution 2',
         ],
 
+wheel3: [
+'Ratchet & Clank Future: Tools of Destruction',
+'Spider-Man: Web of Shadows',
+'Necrosmith',
+'Shank',
+'Serious Sam 4',
+'Samurai Jack: Battle Through Time',
+'Bully',
+'Ratatouille',
+'Barnyard',
+"Assassin's Creed II",
+'Portal 2',
+'Shank 2',
+
+
     effects: [
         'Халява',
         'Казуалыч',
@@ -356,6 +371,11 @@ function getImageURI(index) {
 
         case "wheel5":
         offset = 00;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+            
+        case "wheel3":
+        offset = 0107;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
