@@ -73,7 +73,6 @@ wheel5: [
         ],
 
 wheel3: [
-'Ratchet & Clank Future: Tools of Destruction',
 'Spider-Man: Web of Shadows',
 'Necrosmith',
 'Shank',
@@ -360,7 +359,7 @@ function getImageURI(index) {
         break;
             
         case "wheel3":
-        offset = 10;
+        offset = 11;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
