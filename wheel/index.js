@@ -57,6 +57,21 @@ const dataSets = {
        "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     ],
 
+    wheel3: [
+    'Spider-Man: Web of Shadows',
+    'Necrosmith',
+    'Shank',
+    'Serious Sam 4',
+    'Samurai Jack: Battle Through Time',
+    'Bully',
+    'Ratatouille',
+    'Barnyard',
+    "Assassin's Creed II",
+    'Portal 2',
+    'Shank 2',
+    ],
+    
+
     coin: [
         'Орёл',
         'Решка',
@@ -298,6 +313,11 @@ function getImageURI(index) {
             
         case "wheel2":
         offset = 00;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+
+        case "wheel3":
+        offset = 12;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
