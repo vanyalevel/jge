@@ -32,20 +32,6 @@ const dataSets = {
        'Watch Dogs',
        "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     ],
-    
-wheel3: [
-'Spider-Man: Web of Shadows',
-'Necrosmith',
-'Shank',
-'Serious Sam 4',
-'Samurai Jack: Battle Through Time',
-'Bully',
-'Ratatouille',
-'Barnyard',
-"Assassin's Creed II",
-'Portal 2',
-'Shank 2',
-],
 
 wheel4: [
 'Devil May Cry 3',
@@ -74,7 +60,21 @@ wheel5: [
 'Deadpool',
         ],
 
-    wheel6: [
+    wheel3: [
+'Spider-Man: Web of Shadows',
+'Necrosmith',
+'Shank',
+'Serious Sam 4',
+'Samurai Jack: Battle Through Time',
+'Bully',
+'Ratatouille',
+'Barnyard',
+"Assassin's Creed II",
+'Portal 2',
+'Shank 2',
+],
+    
+wheel6: [
 'Half-Life 2',
 'Life is Strange',
 'Hi-Fi Rush',
@@ -387,7 +387,7 @@ function getImageURI(index) {
         break;
 
         case "wheel5":
-        offset = 00;
+        offset = 20;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
