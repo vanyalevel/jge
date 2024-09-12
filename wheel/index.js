@@ -42,7 +42,7 @@ const dataSets = {
         'Тормоз',
     ],
 
-    wheel2: [        
+        wheel2: [        
        'LIMBO',
        "Mirror's Edge",
        'Outlast',
@@ -70,8 +70,35 @@ const dataSets = {
     'Portal 2',
     'Shank 2',
     ],
-    
 
+    wheel4: [
+    'Devil May Cry 3',
+    'The Binding of Isaac: Repentance', 
+    'Harry Potter Chamber of Secrets',
+    'Hotline Miami',
+    'Fallout 2',
+    'The Last of Us Part 1',
+    'Metal Gear Solid (1998)',
+    'Hyper Light Drifter',
+    'Call of Duty World at War',
+    'Super Meat Boy',
+    ],
+    
+    wheel5: [
+    'Sonic Heroes',
+    'Neighbours back From Hell',
+    'Slime Rancher',
+    'Batman: Arkham Knight',
+    "Assassin's Creed III",
+    "Marvel's Spider-Man: Game of the Year Edition",
+    'Game Dev Tycoon',
+    'LEGO Jurassic World',
+    'Spore',
+    'Jurassic World Evolution 2',
+    'Deadpool',
+        ],
+
+    
     coin: [
         'Орёл',
         'Решка',
@@ -318,6 +345,16 @@ function getImageURI(index) {
 
         case "wheel3":
         offset = 12;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+
+        case "wheel4":
+        offset = 24;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+
+        case "wheel5":
+        offset = 34;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
