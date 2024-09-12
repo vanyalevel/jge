@@ -299,6 +299,11 @@ function getImageURI(index) {
             break;
             
             
+        case "wheel2":
+        offset = 00;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+
         case "coin":
             result = '../images/coin-obverse-20.png';
             if (index === 1) {
