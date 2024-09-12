@@ -81,7 +81,7 @@ wheel6: [
     'Cuphead',
     'Yakuza Kiwami,
     "Furi",
-    'The Evil Within',
+    "The Evil Within",
     'Sweet Fruitcake',
     'Ultrakill',
     'Castlevania: Symphony of the Night',
@@ -384,7 +384,12 @@ function getImageURI(index) {
         break;
 
         case "wheel5":
-        offset = 32;
+        offset = 34;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+
+        case "wheel6":
+        offset = 45;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
