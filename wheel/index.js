@@ -279,32 +279,32 @@ function getImageURI(index) {
                 48,
                 49
             ];
-            result = '../hpg-inventory/images/0' + ('0' + (mapping[index])).slice(-2) + '.png';
+            result = '../hpg-inventory/gameimages/0' + ('0' + (mapping[index])).slice(-2) + '.png';
             break;
             
         case "wheel2":
-        offset = 60;
-        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        offset = 00;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
         case "wheel3":
-        offset = 11;
+        offset = 12;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
         case "wheel4":
-        offset = 87;
-        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        offset = 24;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
         case "wheel5":
-        offset = 20;
+        offset = 32;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
         case "wheel8":
         offset = 75;
-        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
             
