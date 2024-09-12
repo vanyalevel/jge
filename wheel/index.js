@@ -14,6 +14,8 @@ const dataSets = {
         'Sleeping Dogs: Definitive Edition',
         'Kung Fu Panda',
         'Илья Муромец и Соловей-Разбойник',
+        'TMNT (2007)',
+        'Spider-Man: Friend or Foe',
     ],
 
     wheel2: [        
@@ -30,21 +32,20 @@ const dataSets = {
        'Watch Dogs',
        "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     ],
-
-    wheel8: [
-    'Shrek 2',
-    'Dishonored',
-    'Sonic Adventure DX',
-    'The Stanley Parable: Ultra Deluxe',
-    'Black Mesa',
-    'Blasphemous',
-    'Ghostrunner',
-    'Doki Doki Literature Club!',
-    'Overlord 2',
-    'Warhammer 40,000: Space Marine',
-    'Katana ZERO',
-    'South Park: The Stick of Truth',
-    ],
+    
+wheel3: [
+'Spider-Man: Web of Shadows',
+'Necrosmith',
+'Shank',
+'Serious Sam 4',
+'Samurai Jack: Battle Through Time',
+'Bully',
+'Ratatouille',
+'Barnyard',
+"Assassin's Creed II",
+'Portal 2',
+'Shank 2',
+],
 
 wheel4: [
 'Devil May Cry 3',
@@ -70,21 +71,38 @@ wheel5: [
 'LEGO Jurassic World',
 'Spore',
 'Jurassic World Evolution 2',
+'Deadpool',
         ],
 
-wheel3: [
-'Spider-Man: Web of Shadows',
-'Necrosmith',
-'Shank',
-'Serious Sam 4',
-'Samurai Jack: Battle Through Time',
-'Bully',
-'Ratatouille',
-'Barnyard',
-"Assassin's Creed II",
-'Portal 2',
-'Shank 2',
-],
+    wheel6: [
+'Half-Life 2',
+'Life is Strange',
+'Hi-Fi Rush',
+'Cuphead',
+'Yakuza Kiwami,
+'Furi',
+'The Evil Within',
+'Sweet Fruitcake',
+'Ultrakill',
+'Castlevania: Symphony of the Night',
+'Mortal Shell',
+'StarCraft II: Wings of Liberty',
+        ],
+
+    wheel8: [
+    'Shrek 2',
+    'Dishonored',
+    'Sonic Adventure DX',
+    'The Stanley Parable: Ultra Deluxe',
+    'Black Mesa',
+    'Blasphemous',
+    'Ghostrunner',
+    'Doki Doki Literature Club!',
+    'Overlord 2',
+    'Warhammer 40,000: Space Marine',
+    'Katana ZERO',
+    'South Park: The Stick of Truth',
+    ],
 
     effects: [
         'Халява',
@@ -321,8 +339,8 @@ function getImageURI(index) {
     ;
     switch (currentDataSet) {
         case "inventory":
-        offset = 50;
-        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        offset = 00;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
         case "effects":
@@ -368,14 +386,14 @@ function getImageURI(index) {
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
-        case "wheel8":
-        offset = 75;
-        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
-        break;
-
         case "wheel5":
         offset = 00;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+            
+        case "wheel8":
+        offset = 75;
+        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
             
