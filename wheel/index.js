@@ -17,6 +17,7 @@ const dataSets = {
         'TMNT (2007)',
         'Spider-Man: Friend or Foe',
     ],
+    
     effects: [
         'Халява',
         'Казуалыч',
