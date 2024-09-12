@@ -42,7 +42,7 @@ const dataSets = {
         'Тормоз',
     ],
 
-wheel2: [        
+    wheel2: [        
        'LIMBO',
        "Mirror's Edge",
        'Outlast',
