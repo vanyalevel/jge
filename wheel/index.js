@@ -334,13 +334,13 @@ class Presets {
 const presets = new Presets;
 
 function getImageURI(index) {
-    let result = '../hpg-inventory/gameimages/000.png',
+    let result = '../hpg-inventory/images/000.png',
         offset = 0
     ;
     switch (currentDataSet) {
         case "inventory":
         offset = 00;
-        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
             
         case "effects":
