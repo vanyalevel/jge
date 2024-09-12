@@ -80,7 +80,7 @@ wheel5: [
 'Hi-Fi Rush',
 'Cuphead',
 'Yakuza Kiwami,
-'Furi',
+"Furi",
 'The Evil Within',
 'Sweet Fruitcake',
 'Ultrakill',
@@ -334,7 +334,7 @@ class Presets {
 const presets = new Presets;
 
 function getImageURI(index) {
-    let result = '../hpg-inventory/images/000.png',
+    let result = '../hpg-inventory/gameimages/000.png',
         offset = 0
     ;
     switch (currentDataSet) {
