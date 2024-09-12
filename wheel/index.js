@@ -387,7 +387,7 @@ function getImageURI(index) {
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
-        case "wheel5":
+        case "wheel6":
         offset = 45;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
