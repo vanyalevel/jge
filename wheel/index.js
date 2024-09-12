@@ -31,7 +31,7 @@ const dataSets = {
        "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     ],
 
-    wheel9: [
+    wheel8: [
     'Shrek 2',
     'Dishonored',
     'Sonic Adventure DX',
@@ -368,7 +368,7 @@ function getImageURI(index) {
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
-        case "wheel9":
+        case "wheel8":
         offset = 75;
         result = '../hpg-inventory/images/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
