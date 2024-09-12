@@ -98,21 +98,6 @@ const dataSets = {
     'Deadpool',
         ],
 
-    wheel6: [
-    'Half-Life 2',
-    'Life is Strange',
-    'Hi-Fi Rush',
-    'Cuphead',
-    'Yakuza Kiwami,
-    "Furi",
-    "The Evil Within",
-    'Sweet Fruitcake',
-    'Ultrakill',
-    'Castlevania: Symphony of the Night',
-    'Mortal Shell',
-    'StarCraft II: Wings of Liberty',
-    ],
-
     wheel8: [
     'Shrek 2',
     'Dishonored',
