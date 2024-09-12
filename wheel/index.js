@@ -42,6 +42,21 @@ const dataSets = {
         'Тормоз',
     ],
 
+wheel2: [        
+       'LIMBO',
+       "Mirror's Edge",
+       'Outlast',
+       'Grand Theft Auto: Vice City',
+       'Plants vs. Zombies',
+       'Goat Simulator',
+       'Stray',
+       'Detroit: Become Human',
+       'Blitzkrieg 2 Anthology',
+       'LEGO Star Wars: The Skywalker Saga',
+       'Watch Dogs',
+       "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    ],
+
     coin: [
         'Орёл',
         'Решка',
