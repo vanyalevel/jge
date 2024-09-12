@@ -98,6 +98,35 @@ const dataSets = {
     'Deadpool',
         ],
 
+    wheel6: [
+    'Half-Life 2',
+    'Life is Strange',
+    'Hi-Fi Rush',
+    'Cuphead',
+    'Yakuza Kiwami,
+    "Furi",
+    'The Evil Within',
+    'Sweet Fruitcake',
+    'Ultrakill',
+    'Castlevania: Symphony of the Night',
+    'Mortal Shell',
+    'StarCraft II: Wings of Liberty',
+        ],
+
+    wheel8: [
+    'Shrek 2',
+    'Dishonored',
+    'Sonic Adventure DX',
+    'The Stanley Parable: Ultra Deluxe',
+    'Black Mesa',
+    'Blasphemous',
+    'Ghostrunner',
+    'Doki Doki Literature Club!',
+    'Overlord 2',
+    'Warhammer 40,000: Space Marine',
+    'Katana ZERO',
+    'South Park: The Stick of Truth',
+    ],
     
     coin: [
         'Орёл',
