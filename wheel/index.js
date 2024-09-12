@@ -96,21 +96,6 @@ const dataSets = {
     'Spore',
     'Jurassic World Evolution 2',
     'Deadpool',
-        ],
-
-    wheel8: [
-    'Shrek 2',
-    'Dishonored',
-    'Sonic Adventure DX',
-    'The Stanley Parable: Ultra Deluxe',
-    'Black Mesa',
-    'Blasphemous',
-    'Ghostrunner',
-    'Doki Doki Literature Club!',
-    'Overlord 2',
-    'Warhammer 40,000: Space Marine',
-    'Katana ZERO',
-    'South Park: The Stick of Truth',
     ],
     
     coin: [
@@ -369,11 +354,6 @@ function getImageURI(index) {
 
         case "wheel5":
         offset = 34;
-        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
-        break;
-
-        case "wheel6":
-        offset = 45;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
