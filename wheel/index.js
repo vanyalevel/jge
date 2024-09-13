@@ -4,7 +4,7 @@
 
 const dataSets = {
     inventory: [
-        'LEGO The Lord of the Rings',
+        'LEGO® Star Wars™ III - The Clone Wars™',
         'Star Wars: The Force Unleashed II',
         'Turok (2008)',
         'Heavy Rain',
