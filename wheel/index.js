@@ -97,6 +97,21 @@ const dataSets = {
     'Jurassic World Evolution 2',
     'Deadpool',
     ],
+
+    wheel6: [
+    "Half-Life 2",
+    "Life is Strange",
+    "Hi-Fi Rush",
+    "Cuphead",
+    "Yakuza Kiwami",
+    "Furi",
+    "The Evil Within",
+    "Sweet Fruitcake",
+    "Ultrakill",
+    "Castlevania: Symphony of the Night",
+    "Mortal Shell",
+    "StarCraft II: Wings of Liberty",
+        ],
     
     coin: [
         'Орёл',
@@ -354,6 +369,11 @@ function getImageURI(index) {
 
         case "wheel5":
         offset = 34;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+
+        case "wheel6":
+        offset = 45;
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
