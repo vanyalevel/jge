@@ -112,6 +112,36 @@ const dataSets = {
     "Mortal Shell",
     "StarCraft II: Wings of Liberty",
         ],
+
+    wheel7: [
+    "Call of Duty",
+    "Far Cry",
+    "Getting Over It",
+    "Fallout 1",
+    "The Forest",
+    "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+    "S.T.A.L.K.E.R.: Call of Pripyat",
+    "S.T.A.L.K.E.R.: Clear Sky",
+    "BioShock 2",
+    "Five Nights at Freddy's",
+    "Muck",
+    "Beholder 2",
+        ],
+
+    wheel8: [
+    "Shrek 2",
+    "Dishonored",
+    "Sonic Adventure DX",
+    "The Stanley Parable: Ultra Deluxe",
+    "Black Mesa",
+    "Blasphemous",
+    "Ghostrunner",
+    "Doki Doki Literature Club!",
+    "Overlord 2",
+    "Warhammer 40,000: Space Marine",
+    "Katana ZERO",
+    "South Park: The Stick of Truth",
+        ],
     
     coin: [
         'Орёл',
