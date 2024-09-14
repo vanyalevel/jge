@@ -407,6 +407,16 @@ function getImageURI(index) {
         result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
         break;
 
+        case "wheel7":
+        offset = 57;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+
+        case "wheel8":
+        offset = 69;
+        result = '../hpg-inventory/gameimages/0' + ('0' + (index + 1 + offset)).slice(-2) + '.png';
+        break;
+
         case "coin":
             result = '../images/coin-obverse-20.png';
             if (index === 1) {
