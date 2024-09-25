@@ -454,6 +454,7 @@ p5Instance.onAfterSetup = function () {
         ['videos/shtani.mp4'],
         ['videos/pepel.mp4'],
         ['videos/vodovorot.mp4'],
+        ['videos/japan.mp4'],
         
     ]);
 };
