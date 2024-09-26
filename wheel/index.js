@@ -73,10 +73,10 @@ const dataSets = {
 
     wheel4: [
     'Devil May Cry 3',
-    'The Binding of Isaac: Repentance', 
+    'Bee Movie Game', 
     'Harry Potter Chamber of Secrets',
     'Hotline Miami',
-    'Fallout 2',
+    "Super Mario World 2: Yoshi's Island",
     'The Last of Us Part 1',
     'Metal Gear Solid (1998)',
     'Hyper Light Drifter',
